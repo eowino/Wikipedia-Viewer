@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ccc;
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+}
+// -------------------- Base ----------------------------------------
+
+input.form-control {
+	height: 100%;
+	border-radius: 0;
+}
+
+.search {
+	width: 50%;
+	height: 40px;
+	margin: 2% auto;
+}
+
+.btn {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	line-height: 40px;
+	width: 160px;
+	font-size: 18px;
+	span {
+		margin-right: 5px;
+	}
+}
+
+.search-icon {
+	background: #4db6ac;
+	border-radius: 0;
+	position: relative;
+	width: 40px;
+	line-height: 39px;
+	bottom: 40px;
+	left: 93%;
+	text-align: center;
+	.fa {
+		font-size: 18px;
+	}
+}
+// -------------------- Base End ----------------------------------------
+// -------------------- Footer ----------------------------------------
+
+footer p {
+	text-align: center;
+	margin: 0 auto 2% auto;
+	padding: 6px;
+	width: 80px;
+	border: 1px solid transparent;
+	font-weight: 600;
+	background-color: #fff;
+	border-radius: 5px;
+	border-color: blue;
+	opacity: .2;
+	&:hover {
+		opacity: 1;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+}
+// ------------------ Footer End ------------------------------------------
+// -------------------- Main ----------------------------------------
+
+.results {
+	margin-bottom: 3%;
+	margin-top: 5%;
+}
+
+.tile {
+	max-width: 350px;
+	height: 190px;
+	background-color: #4db6ac;
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 2%;
+	ul {
+		list-style: none;
+	}
+
+}
+// ------------------ Main End ------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
