@@ -5,77 +5,38 @@
 	<title>Wikipedia Viewer</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<h1>Wikipedia Viewer</h1>
+			</div>
+		</nav>
+	</header>
+	<div class="alert alert-warning" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	</div>
 	<div class="container">
-		<h1>Wikipedia Viewer</h1>
+		<a class="anchor random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="random"><span class="fa fa-random" aria-hidden="true"></span> See Random Entry</a>
 		<div class="search">
 			<input type="search" class="form-control" id="search" placeholder="Search...">
-			<div class="search-icon">
+			<div id="searchBtn">
+				<div class="arrow-left"></div>
 				<span class="fa fa-search" aria-hidden="true"></span>
 			</div>
 		</div>
-		<div class="results row">
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div><div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
-			<div class="col-xs-4 tile">
-				<ul>
-					<li><h4>Title</h4></li>
-					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta error placeat excepturi esse</li>
-				</ul>
-			</div>
+		<div class="results">
 		</div>
 		<footer>
-			<p><a href="http://codepen.io/evonzz/#">By Evans</a></p>
+			<a class="anchor" href="http://codepen.io/evonzz/#" target="_blank">By Evans</a>
 		</footer>
 	</div>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script src="/app.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="Markup.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
