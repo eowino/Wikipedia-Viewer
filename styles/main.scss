@@ -28,15 +28,17 @@ input.form-control {
 	height: 100%;
 	font-size: 1.4em;
 	border-radius: 0;
+	padding-right: 3.5em;
 	&:hover {
 		box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
 	}
 }
 
 .search {
-	width: 50%;
+	// width: 50%;
 	height: 40px;
-	margin: 2% auto;
+	margin: 0 auto;
+	position: relative;
 }
 
 .btn {
@@ -53,11 +55,11 @@ input.form-control {
 #searchBtn {
 	background: #4db6ac;
 	border-radius: 0;
-	position: relative;
+	position: absolute;
 	width: 41px;
 	line-height: 40px;
-	bottom: 40px;
-	left: 93%;
+	top: 0;
+	right: 0;
 	text-align: center;
 	&:hover {
 		cursor: pointer;
