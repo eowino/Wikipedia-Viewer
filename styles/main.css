@@ -78,7 +78,8 @@ input.form-control {
   background-color: #b71c1c;
   color: #fff;
   font-size: 1.4em;
-  line-height: 0.4em;
+  line-height: 1.1em;
+  padding: .6em;
   width: 100%;
   border: 0;
   text-align: center;
