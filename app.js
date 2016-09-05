@@ -19,7 +19,7 @@ function getSearchResults() {
 	    			}
 	    		}else {
 	    			$(".results").empty();
-	    			showAlert("File Not Found. Please try again.");
+	    			showAlert("Wikipedia Entry Not Found. Please try again.");
 	    		}
 	    	}
 	    };
