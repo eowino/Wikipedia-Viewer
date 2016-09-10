@@ -26,6 +26,12 @@ function getSearchResults() {
 	}
 }
 
+var clearResults = function() {
+	if ( $('.results').children().length > 0 ) {
+		$('.results').empty();
+	} 
+};
+
 var showAlert = function(warning) {
 	$(".alert").text(warning);
 	$(".alert").prepend('<i class="fa fa-warning"></i>');
@@ -35,6 +41,7 @@ var showAlert = function(warning) {
 $(document).ready(function() {
 	$("#searchBtn").click(function(){
 		if($("#search").val().length > 0){
+			clearResults();
 			userSearch = $("#search").val();
 			getSearchResults();
 		}else {
